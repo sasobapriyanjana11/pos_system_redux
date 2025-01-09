@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.class-link{
+    display: inline-block;
+    @apply hover:text-black rounded-md  px-3 py-2 font-medium leading-tight;
+}
