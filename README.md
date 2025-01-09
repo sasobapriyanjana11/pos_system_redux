@@ -1,5 +1,5 @@
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=50&pause=1000&center=true&vCenter=true&color=00FF00&width=835&height=70&lines=REACT+REDUX+and+SLICE" alt="React ReducerFrontend" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=50&pause=1000&center=true&vCenter=true&color=92dde5&width=835&height=70&lines=REACT+REDUX+and+SLICE" alt="React ReducerFrontend" />
 </a>
 
 # React Customer & Item CRUD Application
