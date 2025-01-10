@@ -36,10 +36,10 @@ export function Add() {
     }
     return (
         <div className=" md-8">
-            <h1 className="text-3xl font-medium text-green-500 mb-6 text-my">Add Section</h1>
+            <h1 className="text-3xl font-medium text-purple-500 mb-6 text-my">Add Section</h1>
             <div className="grid grid-cols-2 gap-6 p-6">
                 {/* Add Customer Section */}
-                <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="bg-gray-200 shadow-md rounded-lg p-6">
                     <header>
                         <h1 className="text-2xl font-bold text-gray-700 mb-4">Add Customer</h1>
                     </header>
@@ -70,7 +70,7 @@ export function Add() {
                         </div>
                     </div>
                     <button onClick={addCustomer}
-                            className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Add Customer
+                            className="mt-4 bg-purple-600 bg-opacity-50 text-white py-2 px-4 rounded hover:bg-purple-600">Add Customer
                     </button>
                     <table className="w-full border-collapse mt-6">
                         <thead>
@@ -95,7 +95,7 @@ export function Add() {
                 </div>
 
                 {/* Add Item Section */}
-                <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="bg-gray-200 shadow-md rounded-lg p-6">
                     <header>
                         <h1 className="text-2xl font-bold text-gray-700 mb-4">Add Item</h1>
                     </header>
@@ -117,7 +117,7 @@ export function Add() {
                             <input name="itemPrice" type="number" placeholder="Price" className="w-full border border-gray-300 rounded p-2" onChange={(e) => setItemPrice(e.target.value)}/>
                         </div>
                     </div>
-                    <button onClick={addItem} className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">Add Item
+                    <button onClick={addItem} className="mt-4 bg-purple-600 bg-opacity-70 text-white py-2 px-4 rounded hover:bg-purple-600">Add Item
                     </button>
                     <table className="w-full border-collapse mt-6">
                         <thead>

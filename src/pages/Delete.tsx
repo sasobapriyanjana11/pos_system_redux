@@ -16,9 +16,9 @@ export function Delete() {
     }
     return (
         <div className=" md-8">
-            <h1 className="text-3xl font-medium text-green-500 mb-6 text-my">Delete Section</h1>
+            <h1 className="text-3xl font-medium text-purple-500 mb-6 text-my">Delete Section</h1>
             <div className="grid grid-cols-2 gap-6 p-6">
-                <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="bg-gray-200 shadow-md rounded-lg p-6">
                     {/* Customers Section */}
                     <section>
                         <h1 className="text-xl font-bold text-gray-700 mb-4">Delete Customers</h1>
@@ -53,7 +53,7 @@ export function Delete() {
                     </section>
                 </div>
                 {/* Items Section */}
-                <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="bg-gray-200 shadow-md rounded-lg p-6">
                     <section>
                         <h1 className="text-xl font-bold text-gray-700 mb-4">Delete Items</h1>
                         <table className="w-full border-collapse mt-6">

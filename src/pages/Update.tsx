@@ -45,10 +45,10 @@ export function Update() {
     }
     return (
         <div className=" md-8">
-            <h1 className="text-3xl font-medium text-green-500 mb-6 text-my">Update Section</h1>
+            <h1 className="text-3xl font-medium text-purple-500 mb-6 text-my">Update Section</h1>
             <div className="grid grid-cols-2 gap-6 p-6">
                 {/* Update Customer Section */}
-                <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="bg-gray-200 shadow-md rounded-lg p-6">
                     <header>
                         <h1 className="text-2xl font-bold text-gray-700 mb-4">Update Customer</h1>
                     </header>
@@ -74,7 +74,7 @@ export function Update() {
                                    placeholder="Phone" value={phone} onChange={(e) => setPhone(e.target.value)}/>
                         </div>
                     </div>
-                    <button onClick={handleUpdateCustomer} className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Update</button>
+                    <button onClick={handleUpdateCustomer} className="mt-4 bg-purple-600 bg-opacity-100 text-white py-2 px-4 rounded hover:bg-blue-600">Update</button>
                     <br/>
                     <table className="w-full border-collapse mt-6">
                         <thead>
@@ -103,7 +103,7 @@ export function Update() {
                 </div>
 
                 {/* Update Item Section */}
-                <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="bg-gray-200 shadow-md rounded-lg p-6">
                     <header>
                         <h1 className="text-2xl font-bold text-gray-700 mb-4">Update Item</h1>
                     </header>
@@ -125,7 +125,7 @@ export function Update() {
                             <input name="itemPrice" type="number" placeholder="Price" className="w-full border border-gray-300 rounded p-2" value={itemPrice} onChange={(e) => setItemPrice(e.target.value)}/>
                         </div>
                     </div>
-                    <button onClick={handleUpdateItem} className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">Update</button>
+                    <button onClick={handleUpdateItem} className="mt-4 bg-indigo-600 bg-opacity-100 text-white py-2 px-4 rounded hover:bg-blue-600">Update</button>
                     <table className="w-full border-collapse mt-6">
                         <thead>
                         <tr>

@@ -13,7 +13,7 @@ export function Navigation() {
     }, []);
     return (
         <>
-            <header className="bg-slate-700 w-full">
+            <header className="bg-indigo-800 w-full">
                 <nav className="px-4 py-2 text-xl shadow-lg flex justify-between items-center">
                     {/* Center Section */}
                     <ul className="flex text-white space-x-4">
@@ -28,7 +28,7 @@ export function Navigation() {
                             {currentTime.toLocaleDateString()} {currentTime.toLocaleTimeString()}
                         </div>
                         <img src="src/assets/profile_pic.jpeg" alt="User Profile" className="w-10 h-10 rounded-full border border-white"/>
-                        <button className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full hover:bg-gray-500">Sign In</button>
+                        <button className="bg-gray-200 text-yellow-700 px-3 py-1 rounded-full hover:bg-gray-500">Sign In</button>
                     </div>
                 </nav>
             </header>
